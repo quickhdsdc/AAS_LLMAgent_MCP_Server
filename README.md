@@ -1,6 +1,23 @@
 # Using Asset Administration Shell as a MCP Server for LLM-Agent
 
+The AAS MCP Server currently provides two key tools for interacting with Asset Administration Shell (AAS) data:
 
+### 1. `aas_explore(endpoint)`
+
+Fetches metadata about all available AAS instances from a specified AAS server.
+
+- **Parameter:**
+  - `endpoint` (*string*): The URL of the target AAS server.
+
+---
+
+### 2. `aas_parser(endpoint, id)`
+
+Downloads the full AAS package in AASX format for a given AAS instance and extracts its property paths into a structured table.
+
+- **Parameters:**
+  - `endpoint` (*string*): The URL of the AAS server.
+  - `id` (*string*): The unique identifier of the AAS instance.
 
 ## Install
 
