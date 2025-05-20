@@ -1,4 +1,4 @@
-# Integrating Asset Administration Shell into a MCP Server for LLM-Agent
+# Using Asset Administration Shell as a MCP Server for LLM-Agent
 
 
 
